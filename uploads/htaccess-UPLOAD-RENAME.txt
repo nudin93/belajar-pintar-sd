@@ -1,0 +1,7 @@
+RENAME file ini menjadi .htaccess di folder uploads/ setelah upload ke cPanel.
+
+Options -Indexes
+<FilesMatch "\.(php|phtml|phar|pl|py|sh|cgi)$">
+  Require all denied
+</FilesMatch>
+php_flag engine off

@@ -1,0 +1,26 @@
+/* BELAJAR PINTAR SD — Pengembang: Zainudin Larau — gaya tambahan AdminLTE. */
+:root{--bp-blue:#2f6fed;--bp-dark:#1b2a4a}
+body{font-family:'Source Sans Pro',Arial,sans-serif}
+.brand-link{background:var(--bp-dark)!important}
+.main-sidebar{background:#1f2d3d}
+.kid-hero{background:linear-gradient(135deg,#2f6fed,#6aa6ff);color:#fff;border-radius:1rem}
+.kid-card{border-radius:1rem;border-top:4px solid var(--bp-blue)}
+.photo-thumb{width:100%;height:140px;object-fit:cover;border-radius:.5rem;border:1px solid #ddd;cursor:zoom-in}
+.badge-status{font-size:.85rem}
+.upload-progress{height:8px}
+@media(max-width:576px){.content-header h1{font-size:1.25rem}.photo-thumb{height:110px}}
+
+/* --- responsif & popup --- */
+.table-responsive{border:0}
+.table-responsive .table{margin-bottom:0;min-width:640px}
+.modal-content{border-radius:.75rem}
+.modal-header{background:#1b2a4a;color:#fff;border-radius:.75rem .75rem 0 0}
+.modal-header .close{color:#fff;opacity:.8}
+.alert-bp-toast{border-radius:.6rem;font-size:.9rem}
+@media(max-width:576px){
+  .content-header h1{font-size:1.2rem}
+  .modal-dialog{margin:.4rem}
+  .small-box h3{font-size:1.4rem}
+  .btn{margin-bottom:4px}
+  .card-body{padding:.8rem}
+}

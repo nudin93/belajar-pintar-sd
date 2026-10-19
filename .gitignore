@@ -1,0 +1,21 @@
+# Belajar Pintar SD — Pengembang: Zainudin Larau
+# index.html mungil ini WAJIB ikut (mencegah listing direktori)
+!application/cache/index.html
+!application/cache/sessions/index.html
+!application/logs/index.html
+!uploads/index.html
+application/cache/sessions/*
+application/cache/*.php
+application/cache/*.tmp
+application/logs/log-*.php
+uploads/assignments/*
+uploads/contoh/*
+uploads/materi/*
+uploads/profil/*
+!uploads/htaccess-UPLOAD-RENAME.txt
+.env
+vendor/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
